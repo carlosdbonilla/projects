@@ -1,15 +1,39 @@
 # Projects
 
-A collection of smaller projects and experiments covering data analytics, Python, SQL, and cloud. Each folder is a self-contained project with its own notes.
+Hands-on data projects built with Python, covering data cleaning, analysis, and interactive visualization. Several were completed as part of my IBM Data Analyst certification.
 
 ## What's Inside
 
 | Project | Description | Tools |
 |---|---|---|
-| `project-folder-1` | One line on what it does and the problem it solves | Python, Pandas |
-| `project-folder-2` | One line on what it does and the problem it solves | SQL |
-| `project-folder-3` | One line on what it does and the problem it solves | Excel / Tableau |
+| `airline-delay-dashboard` | Interactive web dashboard that lets users enter a year and instantly see average monthly flight arrival delays as a line chart | Python, Pandas, Plotly, Dash |
+| `auto-data-cleaning` | Cleaned and prepared a raw automobile dataset for analysis by detecting missing values, imputing them, and standardizing data types | Python, Pandas, NumPy |
+
+---
+
+### ✈️ Airline Performance Dashboard
+An interactive dashboard built with Plotly Dash on a real US airline performance dataset.
+
+- User enters a year in an input box
+- A callback filters the data to that year and calculates average arrival delay by month
+- Results render as a live line chart that updates on every input
+
+**Skills shown:** interactive dashboards, callbacks, data filtering and aggregation (`groupby`), data visualization
+
+---
+
+### 🚗 Automobile Data Cleaning
+Data wrangling on a raw automobile dataset with missing and inconsistent values, preparing it for downstream analysis or modeling.
+
+- Replaced placeholder `?` values with proper nulls and counted missing values per column
+- Filled missing numeric values (normalized losses, bore, stroke, horsepower, peak RPM) with the column mean
+- Filled missing categorical values (number of doors) with the most common value
+- Dropped rows missing the target variable (price), since they can't be used for price prediction
+- Converted columns to correct data types (int, float) for accurate calculations
+
+**Skills shown:** data quality assessment, missing-value imputation strategies, data type correction, data preparation
+
+---
 
 ## About
-
-Built by Carlos Bonilla as hands-on practice alongside my work in cloud, AI, and data. For my structured Databricks and AWS learning, see [databricks-sa-enablement](https://github.com/carlosdbonilla/databricks-sa-enablement).
+Built by Carlos Bonilla. For my structured Databricks and AWS learning, see [databricks-sa-enablement](https://github.com/carlosdbonilla/databricks-sa-enablement).
