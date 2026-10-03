@@ -1,0 +1,15 @@
+# Projects
+
+A collection of smaller projects and experiments covering data analytics, Python, SQL, and cloud. Each folder is a self-contained project with its own notes.
+
+## What's Inside
+
+| Project | Description | Tools |
+|---|---|---|
+| `project-folder-1` | One line on what it does and the problem it solves | Python, Pandas |
+| `project-folder-2` | One line on what it does and the problem it solves | SQL |
+| `project-folder-3` | One line on what it does and the problem it solves | Excel / Tableau |
+
+## About
+
+Built by Carlos Bonilla as hands-on practice alongside my work in cloud, AI, and data. For my structured Databricks and AWS learning, see [databricks-sa-enablement](https://github.com/carlosdbonilla/databricks-sa-enablement).
